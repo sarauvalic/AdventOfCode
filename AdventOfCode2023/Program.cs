@@ -4,10 +4,9 @@ using AdventOfCode2023.Days;
 Console.WriteLine("Advent of Code 2023");
 
 string date = "01";
-
-IDay day;
 string[] input;
 
+IDay day;
 try
 {
 	day = new Day01();
